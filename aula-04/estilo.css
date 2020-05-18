@@ -1,7 +1,27 @@
 body {
-  background-color: green; /* cor de fundo  */
-  color: white; 
-}
+  background-color: #4d7e65; /* cor de fundo  */
+  color: white; /* cor da fonte  */
+  font-family: Verdana, sans-serif; 	/* fonte do texto  */
+  font-size: 16px; /* tamanho da fonte  */
+ }
+ 
+ header {
+  width: 100%; /* largura do elemento  */
+  height: 300px; /* altura do elemento  */
+  border: 1px solid #fff; /* largura, tipo e cor da borda do elemento */
+ }
 
+ header img{
+   width: 200px;
+   border-radius: 50%;
+ }
 
+ main{
+  min-height: 400px;
+ }
 
+ footer{
+  border: 1px solid #fff; /* largura, tipo e cor da borda do elemento */
+  height: 100px;
+  text-align: center;
+ }
